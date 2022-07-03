@@ -82,7 +82,7 @@
  * The fuzzy highlight patch takes precedence over this patch.
  * https://tools.suckless.org/dmenu/patches/highlight/
  */
-#define HIGHLIGHT_PATCH 1
+#define HIGHLIGHT_PATCH 0
 
 /* This will automatically sort the search result so that high priority items are shown first.
  * https://tools.suckless.org/dmenu/patches/highpriority/
@@ -142,7 +142,7 @@
 /* This patch adds basic mouse support for dmenu.
  * https://tools.suckless.org/dmenu/patches/mouse-support/
  */
-#define MOUSE_SUPPORT_PATCH 1
+#define MOUSE_SUPPORT_PATCH 0
 
 /* Without this patch when you press Ctrl+Enter dmenu just outputs current item and it is not
  * possible to undo that.
@@ -218,7 +218,7 @@
  * it with dots. All data from stdin will be ignored.
  * https://tools.suckless.org/dmenu/patches/password/
  */
-#define PASSWORD_PATCH 0
+#define PASSWORD_PATCH 1
 
 /* This patch allows the selected text to be piped back out with dmenu. This can be useful if you
  * want to display the output of a command on the screen.
@@ -291,7 +291,7 @@
  * is too long or there are too many options to be shown in dmenu in one line, to be defined.
  * https://tools.suckless.org/dmenu/patches/symbols/
  */
-#define SYMBOLS_PATCH 1
+#define SYMBOLS_PATCH 0
 
 /* With this patch dmenu will split input lines at first tab character and only display first
  * part, but it will perform matching on and output full lines as usual.
@@ -306,7 +306,7 @@
 /* This patch prevents dmenu from indenting items at the same level as the prompt length.
  * https://tools.suckless.org/dmenu/patches/vertfull/
  */
-#define VERTFULL_PATCH 0
+#define VERTFULL_PATCH 1
 
 /* Adds extended window manager hints such as _NET_WM_WINDOW_TYPE and _NET_WM_WINDOW_TYPE_DOCK.
  * https://github.com/Baitinq/dmenu/blob/master/patches/dmenu-wm_type.diff
@@ -325,7 +325,7 @@
  *
  * https://tools.suckless.org/dmenu/patches/xresources/
  */
-#define XRESOURCES_PATCH 1
+#define XRESOURCES_PATCH 0
 
 /* This patch adds options for specifying dmenu window position and width.
  * The center patch takes precedence over the XYW patch if enabled.
